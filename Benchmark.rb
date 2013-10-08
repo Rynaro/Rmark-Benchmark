@@ -83,6 +83,7 @@ class Benchmark
 		(1e6.to_i).times do |i|
 			puts "Puts: " + i.to_s
 		end
+		puts "\nTime: " + (timerStop(time).round(4)).to_s	
 	end
 
 end
